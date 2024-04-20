@@ -19,11 +19,12 @@
         <a href="#" class ="logo">wellness wanderer</a>
      <nav class="navbar">
         <a href="#home">home</a>
-        <a href="#about">about</a>
+        <a href="about.html">about</a>
         <a href="#features">features</a>
-        <!-- <a href="#diet">diet</a> -->
+        <a href="#diet">diet</a> 
         <!-- <a href="#pricing">pricing</a> -->
-        <!-- <a href="#review">review</a> -->
+        <a href="contact.html">contact</a>
+        <a href="#" class="btn">signin</a>
      </nav>
      <div class="fas fa-bars" id ="menu"></div>
     </header>
@@ -62,7 +63,7 @@
 
 
 <!-- features section start -->
- <section class="features" id="features">
+<section class="features" id="features">
     <h1 class="heading">OUR FEATURES</h1>
     <div class="box-container">
         <div class="box">
@@ -114,84 +115,71 @@
             </div>
         </div>
     </div>
- </section>
+</section>
 
-
-
-    <!-- features section ends -->
+<!-- features section ends -->
 <!-- diet section start -->
 
 
  
-   <section class="diet">
-      <h1 class="heading">DIET PLAN</h1>
-     <ul class="controls">
-     <li class="buttons active " data-filter="keto">
-        <img src="diet1.jpeg" alt="">
-      </li>
-      <li class="buttons " data-filter="intermedent">
-        <img src="diet2.png" alt="">
-      </li>
-      <!-- <li class="buttons" data-filter="all">
-        <img src="diet3.jpeg" alt="">
-      </li> -->
-     </ul>
-     <div class="image-container">
-         <div class="box keto">
-            <div class="image">
-                <img src="diet4.jpeg" alt="">
-            </div>
-            <div class="content">
-                <a href="#" class="link">Lorem ipsum dolor sit amet consectetur adipisicing elit. </a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores tempore unde!</p>
-                <div class="icon">
-                    <a href="#"><i class="fas fa-clock"></i>19 feb,2024</a>
-                    <a href="#"><i class="fas fa-user"></i>by aliza</a>
+    <section class="diet" id="diet">
+        <h1 class="heading">DIET PLAN</h1>
+        <ul class="controls">
+            <li class="buttons active " data-filter="keto">
+              <img src="diet1.jpeg" alt=""><h3>keto</h3>
+            </li>
+            <li class="buttons" data-filter="intermedent">
+                <img src="diet2.png" alt=""><h3>detox</h3>
+            </li>
+            <li class="buttons" data-filter="all">
+             <img src="diet3.jpeg" alt=""><h3>all</h3>
+             </li>  
+        </ul>
+
+        <div class="image-container">
+
+            <div class="box keto">
+                <div class="image">
+                    <img src="diet4.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Lorem ipsum dolor sit amet consectetur adipisicing elit. </a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores tempore unde!</p>
+                    <div class="icon">
+                     <a href="#"><i class="fas fa-clock"></i>19 feb,2024</a>
+                     <a href="#"><i class="fas fa-user"></i>by aliza</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="box intermedent">
-            <div class="image">
-                <img src="ketoblog.jpg" alt="">
-            </div>
-            <div class="content">
-                <a href="#" class="link">Lorem ipsum dolor sit amet consectetur adipisicing elit. </a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores tempore unde!</p>
-                <div class="icon">
-                    <a href="#"><i class="fas fa-clock"></i>19 feb,2024</a>
-                    <a href="#"><i class="fas fa-user"></i>by aliza</a>
+        
+            <div class="box intermedent">
+                <div class="image">
+                    <img src="ketoblog.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Lorem ipsum dolor sit amet consectetur adipisicing elit. </a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores tempore unde!</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i>19 feb,2024</a>
+                        <a href="#"><i class="fas fa-user"></i>by aliza</a>
+                    </div>
                 </div>
             </div>
+     
+            <div class="box all">
+                <div class="image">
+                    <img src="allblog.jpeg" alt="">
+                </div>
+                <div class="content">
+                 <a href="#" class="link">Lorem ipsum dolor sit amet consectetur adipisicing elit. </a>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores tempore unde!</p>
+                 <div class="icon">
+                 <a href="#"><i class="fas fa-clock"></i>19 feb,2024</a>
+                 <a href="#"><i class="fas fa-user"></i>by aliza</a>
+                </div> 
+            </div>
         </div>
-     </div>
-     <!-- <div class="box all">
-        <div class="image">
-            <img src="allblog.jpeg" alt="">
-        </div> -->
-        <!-- <div class="content">
-            <a href="#" class="link">Lorem ipsum dolor sit amet consectetur adipisicing elit. </a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores tempore unde!</p>
-            <div class="icon">
-                <a href="#"><i class="fas fa-clock"></i>19 feb,2024</a>
-                <a href="#"><i class="fas fa-user"></i>by aliza</a>
-            </div> -->
-        </div>
-      </div>
-     </div>
-
-     </div>
-
-  </section>
-
-
-
-
-
-
-
-
-
-
+    </section>
 
 <!-- diet section ends -->
 <!-- newsletter section starts -->
@@ -212,31 +200,37 @@
 <section class="footer">
     <div class="box-container">
      <div class="box">
-        <h3>quick links</h3>
-        <a href="#home"><i class="fas fa-arrow-right"></i>home</a>
-        <a href="#about"><i class="fas fa-arrow-right"></i>about</a>
-        <a href="#features"><i class="fas fa-arrow-right"></i>features</a>
-        <a href="#diet"><i class="fas fa-arrow-right"></i>diet</a>
-        <a href="#blog"><i class="fas fa-arrow-right"></i>blog</a>
-        <a href="#reviews"><i class="fas fa-arrow-right"></i>reviews</a>
+         <h3>quick links</h3>
+         <a href="#home"><i class="fas fa-arrow-right"></i>home</a>
+         <a href="about.html"><i class="fas fa-arrow-right"></i>about</a>
+         <a href="#features"><i class="fas fa-arrow-right"></i>features</a>
+         <a href="#diet"><i class="fas fa-arrow-right"></i>diet</a>
+         <a href="#blog"><i class="fas fa-arrow-right"></i>blog</a>
+         <a href="contact.html"><i class="fas fa-arrow-right"></i>contact</a>
      </div>
 
      <div class="box">
-        <h3>contact info</h3>
-        <a href="#"><i class="fas fa-phone"></i>+123-435-8970</a>
-        <a href="#"><i class="fas fa-phone"></i>+124-456-8900</a>
-        <a href="#"><i class="fas fa-envelope"></i>alizasheikh12@gmail.com</a>
-        <a href="#"><i class="fas fa-map"></i>newdelhi,india 110084</a>
+         <h3>contact info</h3>
+         <a href="#"><i class="fas fa-phone"></i>+123-435-8970</a>
+         <a href="#"><i class="fas fa-phone"></i>+124-456-8900</a>
+         <a href="#"><i class="fas fa-envelope"></i>alizasheikh12@gmail.com</a>
+         <a href="#"><i class="fas fa-map"></i>newdelhi,india 110084</a>
        
-        <div class="box">
-            <h3>follow us</h3>
-            <a href="#"><i class="fas fa-facebook"></i>facebook</a>
-            <a href="#"><i class="fas fa-instagram"></i>instagram</a>
-            <a href="#"><i class="fas fa-twitter"></i>twitter</a>
+           <div class="box">
+             <h3>follow us</h3>
+             <a href="http://www.facebook.com/aliizasheikh"><i class="fas fa-facebook"></i>facebook</a>
+             <a href="http://www.instagram.com/aliizasheikh"><i class="fas fa-instagram"></i>instagram</a>
+             <a href="http://www.twitter.com/aliizasheikh"><i class="fas fa-twitter"></i>twitter</a>
           
-     </div>
-     <div class="credit">created by <span>alizas</span>|all rigths reserved!</div>
+            </div>
+    </div>     
+<!-- google maps -->
+   <div class="google-map">
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224346.5400466074!2d77.04417434001834!3d28.527252739872903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1713596022495!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
+<!-- google maps -->
+    <div class="credit">created by <span>alizas</span>|all rigths reserved!</div>
+     </div>
    
 </section>
 

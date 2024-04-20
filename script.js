@@ -10,15 +10,6 @@ window.onscroll = ()=>{
     navbar.classList.remove('active');
 }
 
-
-
-
-
-
-
-
-
-
 $(document).ready(function(){
     $(' .buttons').click(function(){
         $(this).addClass('active').siblings().removeClass('active');
